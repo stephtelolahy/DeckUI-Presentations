@@ -11,7 +11,7 @@ import SwiftUI
 @main
 struct PresentationApp: App {
     
-    let deck = Deck.demo
+    let deck = Deck.tdd
     @State var showCamera = false
     
     var body: some Scene {
