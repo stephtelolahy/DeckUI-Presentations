@@ -27,12 +27,11 @@ extension Deck {
 
                 Columns {
                     Column {
-                        Bullets(style: .dash) {
+                        Bullets(style: .bullet) {
                             Words("Une approche de développement logiciel qui met l'accent sur la création de tests automatisés avant l'écriture du code de production.")
                             Words("Un cycle de développement itératif qui repose sur le principe \"Red-Green-Refactor\"")
                         }
                     }
-
                     Column {
                         Media(.bundleImage("test-driven-development"))
                     }
